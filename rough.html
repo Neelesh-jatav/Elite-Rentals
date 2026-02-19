@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Form Elements Example</title>
+</head>
+<body>
+    <h2>Complete HTML Form with All Elements</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <!-- Text Input -->
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your name" required><br><br>
+
+        <!-- Password -->
+        <label>Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <!-- Number -->
+        <label>Age:</label>
+        <input type="number" name="age" min="1" max="100"><br><br>
+
+        <!-- Telephone -->
+        <label>Phone:</label>
+        <input type="tel" name="phone"><br><br>
+
+        <!-- URL -->
+        <label>Website:</label>
+        <input type="url" name="website"><br><br>
+
+        <!-- Date -->
+        <label>Date of Birth:</label>
+        <input type="date" name="dob"><br><br>
+
+        <!-- Time -->
+        <label>Preferred Time:</label>
+        <input type="time" name="time"><br><br>
+
+        <!-- Date Time Local -->
+        <label>Appointment:</label>
+        <input type="datetime-local" name="appointment"><br><br>
+
+        <!-- Month -->
+        <label>Month:</label>
+        <input type="month" name="month"><br><br>
+
+        <!-- Week -->
+        <label>Week:</label>
+        <input type="week" name="week"><br><br>
+
+        <!-- Color -->
+        <label>Favourite Color:</label>
+        <input type="color" name="color"><br><br>
+
+        <!-- Range -->
+        <label>Rating (1-10):</label>
+        <input type="range" name="rating" min="1" max="10"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other <br><br>
+
+        <!-- Checkbox -->
+        <label>Select Skills:</label>
+        <input type="checkbox" name="skills" value="html">HTML
+        <input type="checkbox" name="skills" value="css">CSS
+        <input type="checkbox" name="skills" value="js">JavaScript <br><br>
+
+        <!-- Select dropdown -->
+        <label>Country:</label>
+        <select name="country">
+            <option value="">Select</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Canada</option>
+        </select><br><br>
+
+        <!-- Multiple Select -->
+        <label>Select Languages:</label>
+        <select multiple name="languages">
+            <option>English</option>
+            <option>Hindi</option>
+            <option>French</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+        <!-- File upload -->
+        <label>Upload File:</label>
+        <input type="file" name="file"><br><br>
+
+        <!-- Hidden field -->
+        <input type="hidden" name="userid" value="123">
+
+        <!-- Buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <input type="button" value="Click Me" onclick="alert('Button Clicked!')">
+
+    </form>
+
+</body>
+
+</html>
